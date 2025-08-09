@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "mysqlRunner.showHello",
-      "title": "Show Hello Notification"
+        "title": "Show Hello Notification"
       }
     ]
   },
@@ -30,14 +30,18 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
+    "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
-    "eslint": "^9.32.0",
-    "typescript": "^5.9.2",
     "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "mysql2": "^3.14.3"
   }
 }
