@@ -16,20 +16,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "mysqlRunner.showHello",
-        "title": "Show Hello Notification"
-      },
-      {
-        "command": "mysqlRunner.openTerminal",
-        "title": "Open Terminalamundo!"
-      },
-      {
-        "command": "mysqlRunner.openTerminalWithPrompt",
-        "title": "Open term"
-      },
-      {
         "command":"mysqlRunner.openConnectionPrompt",
-        "title":"open prompt"
+        "title":"Enter Database Credentials"
       },
       {
         "command":"mysqlRunner.nl2sqlQuery",
