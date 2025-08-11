@@ -18,6 +18,22 @@
       {
         "command": "mysqlRunner.showHello",
         "title": "Show Hello Notification"
+      },
+      {
+        "command": "mysqlRunner.openTerminal",
+        "title": "Open Terminalamundo!"
+      },
+      {
+        "command": "mysqlRunner.openTerminalWithPrompt",
+        "title": "Open term"
+      },
+      {
+        "command":"mysqlRunner.openConnectionPrompt",
+        "title":"open prompt"
+      },
+      {
+        "command":"mysqlRunner.nl2sqlQuery",
+        "title":"nl2sqlquery"
       }
     ]
   },
@@ -31,7 +47,8 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "22.x",
+    "@types/node": "^22.17.1",
+    "@types/node-fetch": "^2.6.13",
     "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
@@ -42,6 +59,8 @@
   },
   "dependencies": {
     "cli-table3": "^0.6.5",
-    "mysql2": "^3.14.3"
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.3",
+    "node-fetch": "^2.7.0"
   }
 }
