@@ -14,7 +14,8 @@ To run:
 
 ## Features
 
-NL2MySQL Queries! In your project you are using it on, hit Cmd+Shift+P, type in "Enter Database Credentials"
+NL2MySQL Queries! Use natural language to communicate and query your connected database directly within VS Code!
+In your project you are using it on, hit Cmd+Shift+P, type in "Enter Database Credentials"
 Enter credentials as you are prompted for it.
 Hit Cmd+Shift+P again, type "nl2sqlquery"
 Type in normal language the data you want to interact with in the connected database!
